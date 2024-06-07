@@ -10,6 +10,9 @@ body.light-theme, :root {
   /* variables for js, must be the same as these in @custom-media queries */
   --phoneWidth: (max-width: 684px);
   --tabletWidth: (max-width: 900px); }
+body {
+  background-color: rgba(255, 255, 0, 0.7); /* Geltona spalva su 70% permatomumu */
+}
 
 body.dark-theme {
   /* dark theme colors */
